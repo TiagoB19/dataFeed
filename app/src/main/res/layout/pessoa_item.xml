@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00796B"
+    android:hapticFeedbackEnabled="false"
+    android:visibility="visible">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="403dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:visibility="visible"
+        app:cardBackgroundColor="#00000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#2196F3"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/textViewComentario"
+                android:layout_width="379dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="monospace"
+                android:scrollbarSize="4sp"
+                android:text="TextView"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:typeface="normal"
+                android:visibility="visible"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewNome"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textViewNome"
+                android:layout_width="147dp"
+                android:layout_height="57dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="244dp"
+                android:fontFamily="monospace"
+                android:text="TextView"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:typeface="normal"
+                android:visibility="visible"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewAmei"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="monospace"
+                android:text="TextView"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="5sp"
+                android:typeface="normal"
+                android:visibility="visible"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewComentario" />
+
+            <TextView
+                android:id="@+id/textViewRT"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="240dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="monospace"
+                android:text="TextView"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="5sp"
+                android:typeface="normal"
+                android:visibility="visible"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewComentario" />
+
+            <TextView
+                android:id="@+id/textViewAmei2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="monospace"
+                android:text="S2:"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="5sp"
+                android:typeface="normal"
+                android:visibility="visible"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewComentario" />
+
+            <TextView
+                android:id="@+id/textViewAmei3"
+                android:layout_width="82dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="monospace"
+                android:text="RT's:"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="5sp"
+                android:typeface="normal"
+                android:visibility="visible"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewComentario" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
