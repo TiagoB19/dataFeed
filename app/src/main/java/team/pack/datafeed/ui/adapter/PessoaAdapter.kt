@@ -9,8 +9,8 @@ import kotlinx.android.synthetic.main.pessoa_item.view.*
 import team.pack.datafeed.R
 import team.pack.datafeed.model.Pessoa
 
-class pessoaAdapter(private val context: Context, private var pessoaList: List<Pessoa>):
-    RecyclerView.Adapter<pessoaAdapter.PessoaViewHolder>() {
+class PessoaAdapter(private val context: Context, private var pessoaList: List<Pessoa>):
+    RecyclerView.Adapter<PessoaAdapter.PessoaViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PessoaViewHolder {
         val view = LayoutInflater.from(context).inflate(R.layout.pessoa_item, parent, false)
